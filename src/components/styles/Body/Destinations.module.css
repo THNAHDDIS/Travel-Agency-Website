@@ -1,0 +1,95 @@
+.section2Main{
+    display: flex;
+    width: 1102px;
+    height: 617px;
+    position: absolute;
+    top: 1614px;
+    left: 173px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+    margin: 0 auto;
+    background-image: url("../src/assets/img/Section2/Decore (1).png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.section2Main h1{
+    font-family: "Volkhov", Serrif;
+font-size: 50px;
+font-weight: 700;
+line-height: 64.5px;
+text-align: center;
+color: rgba(20, 24, 62, 1);
+
+margin-bottom: 30px;
+}
+
+
+.section2Main h4{
+    font-family: "Poppins",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+    
+color: rgba(94, 98, 130, 1);
+}
+
+
+.cardHandler{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 315px;
+    height: 457px;
+    margin: 20px;
+ 
+    border-radius: 36px;
+    position: relative; 
+    overflow:hidden;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    
+}
+
+
+.card:hover{
+    transform: scale(1.2);
+}
+
+
+.card img{
+    transform: scale(1.5);
+    margin-top: 100px;
+    position: relative;
+    z-index: 0;
+}
+
+.card div{
+    width: 315px;
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 1; 
+   
+    border-radius: 0  0 36px 36px ;
+}
+
+.card div pre{
+    font-family: "Poppins",sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 22.41px;
+text-align: left;
+
+
+color: rgba(94, 98, 130, 1)
+
+}

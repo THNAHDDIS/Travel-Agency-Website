@@ -1,0 +1,39 @@
+.section4Main{
+    display: flex;
+ 
+
+    width: 
+    1165px;
+  height: 
+  356px;
+  position: absolute;
+  top: 3109px;
+  left:   186px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.texts{
+  text-align: start;
+}
+
+.texts h1{
+  font-family: "Volkhov",serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 64.5px;
+  text-align: left;
+  color:rgba(20, 24, 62, 1);
+  
+}
+
+.texts h4{
+  font-family: "Poppins",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: rgba(94, 98, 130, 1);
+  
+}

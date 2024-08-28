@@ -1,0 +1,13 @@
+.footerMain{
+    width: 
+    1200.94px;
+    height:   400px;
+    position: absolute;
+    top:4320px;
+    left: 10%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

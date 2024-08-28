@@ -1,0 +1,147 @@
+.section3Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 
+    1114px;
+    position: absolute;
+   
+    
+  
+    height: 492px;
+     top: 2417px;
+     left: 186px;
+     padding: 0;
+
+     display: flex;
+    align-items: start;
+    justify-content: space-between;
+} 
+
+.info{
+
+    width:511px;
+    
+    height: 100%;
+
+}
+
+
+
+.title h5{
+    font-family: "Poppins",sans-serif;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;text-align: center;
+color: rgba(94, 98, 130, 1);
+text-align: left;
+
+}
+
+.title h1{
+    width: 511px;
+height: 130px;
+
+font-family: "Volkhov", serif;
+font-size: 50px;
+font-weight: 700;
+line-height: 64.5px;
+text-align: left;
+
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    height: 289px
+}
+
+.icons img{
+    margin: 12px;
+}
+
+.extraInfo{
+    display: flex;
+    align-items: start;
+    margin-top: 30px;
+}
+
+.words{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cardMain{
+    width: 485px;
+    height: 400px;
+    display: flex;
+    
+  
+
+
+}
+.bigCard{
+    width: 370px;
+height: 400px;
+display: flex;
+justify-content: center;
+margin-top: 10%;
+position: relative;
+}
+
+.bigCard img{
+    width: 321px;
+height: 161px;
+align-self: center;
+margin-top: 10px;
+}
+
+.bigCard p{
+    font-family: "Poppins",sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.92px;
+letter-spacing: -0.005em;
+text-align: left;
+color: rgba(132, 130, 154, 1);
+
+}
+
+.iconSmall {
+    width: 139px;
+    height: 36px;
+  
+    transform: scale(0.3);
+    margin-top: 10px; 
+}
+
+
+.smallCard{
+    width: 263px;
+height: 129px;
+background-color: white;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+border-radius: 10px;
+position: absolute;
+top: 45%;
+right: 3%;
+display: flex;
+flex-direction: column;
+}
+
+.first{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.first img{
+    margin-top: 20px;
+}
+
+.second {
+display: flex;
+flex-direction: column;
+align-items: start;
+justify-content: space-around;
+}

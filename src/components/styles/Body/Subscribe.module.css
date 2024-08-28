@@ -1,0 +1,85 @@
+
+.section5Main{
+    width:1356px;
+    height: 490px;
+    position: absolute;
+    top:3834px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    left: 48px;
+
+}
+
+.design form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.design{
+    width: 1170px;
+    height: 407px;
+    top: 3847px;
+    left: 1305px;
+    
+    border-radius: 129px 20px 20px 20px;
+    opacity: 0.2px;
+  background-color: rgba(223, 215, 249, 1);
+  display: flex;
+
+  justify-content: center;
+
+  background-image: url("../src/assets/img/Section 5/Mask Group.png"),url("../src/assets/img/Section 5/Mask Group.png");
+  background-repeat: no-repeat;
+  background-position: left bottom, top right;
+ 
+}
+
+.design h5{
+    width: 881px;
+height: 108px;
+
+font-family: "Poppins",sans-serif;
+font-size: 33px;
+font-weight: 600;
+line-height: 54px;
+text-align: center;
+color: rgba(94, 98, 130, 1);
+margin-bottom: 30px;
+
+}
+.btn{
+    width: 180px;
+height: 68px;
+border: none;
+border-radius: 10px 0px 0px 0px;
+font-family: "Open Sans",sans-serif;
+font-size: 17px;
+font-weight: 600;
+line-height: 23.15px;
+text-align: center;
+color: white;
+
+
+}
+
+
+
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.inputContainer input{
+    width: 421px;
+height: 68px;
+border: none;
+border-radius: 10px;
+
+}

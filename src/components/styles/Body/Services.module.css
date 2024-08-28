@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.section1Main{
+  
+    width: 1228px;
+    height:525px;
+    position: absolute;
+    top: 966px;
+    left: 154px;
+    
+   padding: 0;
+    display:flex;
+    
+    flex-direction: column;
+    margin: 0 auto;
+
+    background-image: url("../src/assets/img/Section1/Group 4.png"), url("../src/assets/img/Section1/Rectangle 157.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top right, 340px 330px;
+    
+}
+
+.section1Main div {
+  
+}
+
+
+.section1Main h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+    color: rgba(94, 98, 130, 1);
+ 
+    
+}
+
+.section1Main h1{
+    color: rgba(20, 24, 62, 1);
+    font-family: Volkhov;
+font-size: 50px;
+font-weight: 700;
+line-height: 64.5px;
+text-align: center;
+
+
+}
+
+
+.cards{
+    display: flex;
+    align-items:start;
+    justify-content: space-evenly;
+    margin-top: 60px;
+   
+}     
+
+.cards div {
+ /* width: 200px ; */
+ height:235px ;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ border: none;
+
+
+}
+
+.cards div:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+border-radius: 36px;
+
+transform: scale(1.1);
+
+
+}
+
+.cards div img{
+    width: 77px;
+    height: 66px;
+   
+    }
+
+.cards div h6{
+    font-family: "Open Sans";
+font-size: 20px;
+font-weight: 600;
+line-height: 27.24px;
+text-align: center;
+color: rgba(30, 29, 76, 1);
+
+
+}
+
+.cards div p {
+    font-family: "Poppins", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+color: rgba(94, 98, 130, 1);
+width: 181px;
+
+}

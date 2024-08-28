@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.header {
+    display: flex;
+
+    width:    1160.58px;
+    height:  40px;
+    /* border: 2px solid black; */
+    position: relative;
+    margin-top: 47px;
+    background-image: url("../src/assets/img/Hero/Logo.png");
+    background-position: start;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+ 
+    
+  } 
+
+  .list{
+    color:rgba(33, 40, 50, 1);
+     width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .list p:hover {
+    color: orange;
+    transform: scale(1.05); 
+    text-decoration: underline;
+   }
+
+  .login{
+    color:rgba(33, 40, 50, 1);
+    display: flex;
+     justify-content:space-between;
+     align-items: center;
+     width:25%;
+       margin-left: 2%;
+  
+  }
+
+  .signBtn{
+  background-color: transparent;
+  border: 2px solid black;
+  margin: 0 auto;
+  padding: 2px 20px; 
+  border-radius: 5px;
+  }
+
+  .signBtn:hover{
+    background-color:black;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1);
+  }

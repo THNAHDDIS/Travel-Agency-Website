@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+.banner{
+  
+    display: flex;
+     background-image: url("./src/assets/img/Hero/Image (1).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    width: 1200.87px;
+    height: 770px;
+    justify-content:left;
+  
+    top:105px;
+  }
+  
+  
+
+  .titles {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Note: 'self-start' might not be a valid value */
+    flex-direction: column;
+
+    background-image: url("../src/assets/img/Hero/Decore.png");
+    
+    background-position: 265px 220px;
+    background-repeat: no-repeat;
+    width: 560px;
+    
+}
+  .titles p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: rgba(223, 105, 81, 1) ;
+   font-weight: 700;
+    font-size:20px;
+    line-height: 30px ;
+    transition: 5s  ease-in-out;
+
+   
+  }
+
+  .heading{
+    font-family: "Volkhov",serif;
+    font-weight: 400;
+    font-size: 84px;
+    line-height: 89px;
+    color: rgba(24, 30, 75, 1);
+    
+  }
+
+  #captions{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500 ;
+    font-size:16px;
+    color: rgba(94, 98, 130, 1);
+    line-height: 30px;
+  }
+
+  .findMore div{
+   
+    display: flex;
+   
+    align-items: center;
+  }
+
+  .find{
+    background-color: rgba(241, 165, 1, 1);
+    height: 60px;
+    margin-right: 20px;
+    width:  170px;
+    color: "Open Sans", sans-serif;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.229);
+  }
+
+  .find:hover, .play:hover{
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1);
+
+  }
+
+.easterEgg{
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  
+}
+
+.easterEgg img{
+  margin-top: 25px;
+}
+
+.play{
+  border-radius: 50%;
+  background-color: rgba(223, 105, 81, 1);
+  border: none;
+  width: 52px;
+  height: 52px;
+
+
+}
+
+.easterEgg p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500 ;
+  font-size:16px;
+  color: rgba(94, 98, 130, 1);
+  line-height: 30px;
+ margin: 0 auto;
+ 
+}
