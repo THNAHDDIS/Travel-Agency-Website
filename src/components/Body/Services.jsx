@@ -8,28 +8,28 @@ export const Services = ()=>{
     <h1>We Offer Best Services</h1>
     <div className={styles.cards} data-aos="fade-up"> 
     <div className="card" >
-     <img src="./src/assets/img/Section1/Group48.png" className="card-img-top" alt="..." />
+     <img src="../public/Section1/Group48.png" className="card-img-top" alt="..." />
       <div className="card-body">
     <h6>Calculated Weather</h6>
     <p className="card-text">Plan your trip with precision! Get real-time weather forecasts ☀️🌧️</p>
   </div>
 </div >
 <div className="card" >
-  <img src="./src/assets/img/Section1/Group51.png" className="card-img-top " alt="..."  />
+  <img src="../public/Section1/Group51.png" className="card-img-top " alt="..."  />
   <div className="card-body">
     <h6>Best Flights</h6>
     <p className="card-text">Fly high! Discover budget-friendly flights for your next adventure✈️✨</p>
   </div> 
 </div>
 <div className="card" >
-  <img src="./src/assets/img/Section1/Group50.png" className="card-img-top" alt="..."/>
+  <img src="../public/Section1/Group50.png" className="card-img-top" alt="..."/>
   <div className="card-body">
   <h6>Local Events</h6>
     <p className="card-text">Experience the heartbeat! Don't miss out on our local events 🎉📍</p>
   </div>
 </div>
 <div className="card" >
-  <img src="./src/assets/img/Section1/Group49.png" className="card-img-top" alt="..."/>
+  <img src="../public/Section1/Group49.png" className="card-img-top" alt="..."/>
   <div className="card-body">
   <h6>Customisation</h6>
     <p className="card-text">Your journey, your way. Fit your style with our seamless customization options🎨✈️</p>

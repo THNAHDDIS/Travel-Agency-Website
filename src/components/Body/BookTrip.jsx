@@ -11,9 +11,9 @@ export const BookTrip = ( ) =>{
       </div>
       <div className={styles.extraInfo} data-aos="flip-left" >
         <div className={styles.icons}>
-          <img src="../src/assets/img/Section3/Group7.png" alt="" />
-          <img src="../src/assets/img/Section3/Group11.png" alt="" />
-          <img src="../src/assets/img/Section3/Group12.png" alt="" />
+          <img src="../public/Section3/Group7.png" alt="" />
+          <img src="../public/Section3/Group11.png" alt="" />
+          <img src="../public/Section3/Group12.png" alt="" />
         </div>
         <div className={styles.words}> 
         <div className={styles.writtenInfo}>
@@ -35,14 +35,14 @@ export const BookTrip = ( ) =>{
     <div className={styles.cardMain} >
       <div className={styles.bigCard} data-aos="flip-left">
       <div className="card" >
-    <img src="../src/assets/img/Section3/Rectangle17.jpg" className="card-img-top" alt="..."/>
+    <img src="../public/Section3/Rectangle17.jpg" className="card-img-top" alt="..."/>
      <div className="card-body">
       
     <div className="card-text">
      <h4>Trip to Greece</h4>
      <p>14-29 June | by Robbin Jason</p>
     </div>
-    <img src="../src/assets/img/Section3/OPTIONS(1).png" className={styles.iconSmall} alt="" />
+    <img src="../public/Section3/OPTIONS(1).png" className={styles.iconSmall} alt="" />
     <p></p>
   </div>
 </div>
@@ -50,7 +50,7 @@ export const BookTrip = ( ) =>{
       </div>
        <div className={styles.smallCard}  data-aos="flip-right">
         <div className={styles.first}>
-        <img src="../src/assets/img/Section3/MaskGroup.png" alt="" />
+        <img src="../public/Section3/MaskGroup.png" alt="" />
         <div className={styles.second}>
           <p>Ongoing Tour</p>
           <h4>Trip to home</h4>

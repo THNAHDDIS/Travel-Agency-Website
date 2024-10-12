@@ -9,7 +9,7 @@ export const Testimonial = ( ) =>{
         <h1>What People Say About Us?</h1>
       </div>
       <div className={styles.cardsSwap} data-aos="flip-up">
-             <img src="../src/assets/img/Section4/Group64.png" alt="" />
+             <img src="../public/Section4/Group64.png" alt="" />
       </div>
  
 

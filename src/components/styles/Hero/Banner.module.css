@@ -5,7 +5,7 @@
 .banner{
   
     display: flex;
-     background-image: url("./src/assets/img/Hero/Image(1).png");
+     background-image: url("./public/Hero/Image(1).png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
@@ -24,7 +24,7 @@
     align-items: flex-start; /* Note: 'self-start' might not be a valid value */
     flex-direction: column;
 
-    background-image: url("../src/assets/img/Hero/Decore.png");
+    background-image: url("../public/Hero/Decore.png");
     
     background-position: 265px 220px;
     background-repeat: no-repeat;

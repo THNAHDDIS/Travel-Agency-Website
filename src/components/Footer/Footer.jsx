@@ -8,7 +8,7 @@ export const Footer =()=>{
   <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
     <div className="col mb-3">
      
-        <img src="../src/assets/img/Footer/Jadoo..png" alt="logo" />
+        <img src="../public/Footer/Jadoo.png" alt="logo" />
       
       <p className="text-body-secondary ">Book your ticket in minutes, getting you free early!!</p>
     </div>
@@ -45,7 +45,7 @@ export const Footer =()=>{
     </div>
     <div>
       <div className={styles.socials}>
-        <img src="../src/assets/img/Footer/Outbound.png" alt="" />
+        <img src="../public/Footer/Outbound.png" alt="" />
       </div>
     </div>
   </footer>

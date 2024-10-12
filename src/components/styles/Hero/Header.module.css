@@ -8,7 +8,7 @@
     /* border: 2px solid black; */
     position: relative;
     margin-top: 47px;
-    background-image: url("../src/assets/img/Hero/Logo.png");
+    background-image: url("../public/Hero/Logo.png");
     background-position: start;
     background-repeat: no-repeat;
     display: flex;
