@@ -1,10 +1,8 @@
 
 import styles from "../styles/Hero/Banner.module.css"
 import { FaPlay } from "react-icons/fa";
+
 export const Banner = ()=>{
-
-    
-
     return <>
      <div className={styles.banner} >
         <div className = {styles.titles} data-aos="fade-up">
@@ -26,9 +24,7 @@ export const Banner = ()=>{
           </div>
         </div>
 
-        {/* <div className={styles.traveller}>
-        <img src="./src/assets/img/Hero/Image (1).png" alt="Traveller" />
-        </div> */}
+   
        
       </div>
     </>

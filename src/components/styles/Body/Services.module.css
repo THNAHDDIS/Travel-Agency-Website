@@ -15,15 +15,13 @@
     flex-direction: column;
     margin: 0 auto;
 
-    background-image: url("../src/assets/img/Section1/Group 4.png"), url("../src/assets/img/Section1/Rectangle 157.png");
+    background-image: url("../src/assets/img/Section1/Group4.png"), url("../src/assets/img/Section1/Rectangle157.png");
     background-repeat: no-repeat, no-repeat;
     background-position: top right, 340px 330px;
     
 }
 
-.section1Main div {
-  
-}
+
 
 
 .section1Main h4{
