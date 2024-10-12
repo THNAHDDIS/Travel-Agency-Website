@@ -5,7 +5,7 @@
 .banner{
   
     display: flex;
-     background-image: url("./src/assets/img/Hero/Image (1).png");
+     background-image: url("./src/assets/img/Hero/Image(1).png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;

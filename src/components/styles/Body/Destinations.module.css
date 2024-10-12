@@ -10,7 +10,7 @@
     align-self: center;
     flex-direction: column;
     margin: 0 auto;
-    background-image: url("../src/assets/img/Section2/Decore (1).png");
+    background-image: url("../src/assets/img/Section2/Decore(1).png");
     background-repeat: no-repeat;
     background-position: bottom right;
 }
@@ -55,7 +55,7 @@ color: rgba(94, 98, 130, 1);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
     
-}
+}   
 
 
 .card:hover{
